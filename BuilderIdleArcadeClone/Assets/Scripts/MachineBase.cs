@@ -58,5 +58,12 @@ public class MachineBase : MonoBehaviour
             Debug.LogWarning("SpawnProduct veya SpawnPoint atanmamış!");
         }*/
     }
-    
+    protected virtual void GiveProductToWorker()
+    {
+        
+    }
+    protected virtual void TakeProductFromWorker()
+    {
+        
+    }
 }
